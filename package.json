@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "qiniu": "^7.9.0"
+    "qiniu": "^7.9.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
@@ -9,6 +11,6 @@
     "cross-env": "^7.0.3"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=文件路径@文件名称不带后缀 node start.js"
+    "dev": "cross-env NODE_ENV=备份文件位置@备份文件名称(无后缀)@数据库名称@桶名称@七牛云Ak@七牛云SK node src/start.js"
   }
 }
