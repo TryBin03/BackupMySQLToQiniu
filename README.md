@@ -35,7 +35,7 @@ bash bf.sh
 ```sh
 bash bf.sh backup-test.conf
 ```
-> ## 注意!!!：配置文件需要和`bf.sh`放在同一目录
+### ⚠️注意：配置文件需要和`bf.sh`放在同一目录
 ### 在`crontab`中使用
 ```sh
 # 每天3点备份test数据库
